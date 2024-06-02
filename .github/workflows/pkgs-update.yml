@@ -5,7 +5,7 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: cd {{ github.workspace }}
+      - run: cd ${{ github.workspace }}
       - run: rm Packages
       - run: rm Packages.bz2
       - run: sudo apt install bzip2 -y
