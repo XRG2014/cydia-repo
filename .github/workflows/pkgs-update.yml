@@ -5,13 +5,9 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - name: Changing to workspace directory
-        run: cd ${{ github.workspace }}
-      - name: Removing deprecated Packages files
-        run: rm Packages
+      - run: cd {{ github.workspace }}
+      - run: rm Packages
       - run: rm Packages.bz2
-      - name: Installing bzip2
-        run: sudo apt install bzip2 -y
-      - name: Creating new Packages files
-        run: sudo dpkg-scanpackages -m ./debs > Packages
+      - run: sudo apt install bzip2 -y
+      - run: dpkg-scanpackages -m ./debs > Packages
       - run: bzip2 Packages
