@@ -1,0 +1,16 @@
+Package: com.xrg2014.classiczoom
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: XRG2014
+Depends: com.anemonetheming.anemone | com.spark.snowboard
+Filename: ./debs/ClassicZoom.deb
+Size: 3848
+MD5sum: cf8f30649140bf74e319d2f5aa45ddca
+SHA1: 5ec188c038cc4a424027af72bee0b73a3f6ff0a2
+SHA256: 87733c7d6b9f403daf2ff4c400037432815a7a0b238635286324d145ae936207
+Section: Themes
+Description: A theme that adds back the classic Zoom icon
+Author: XRG2014
+Depiction: https://xrg2014.github.io/cydia-repo/depictions/?p=com.xrg2014.classiczoom
+Name: Classic Zoom
+
