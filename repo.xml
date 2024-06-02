@@ -8,7 +8,7 @@
 		<link>
 			<name>My Github profile</name>
 			<url>https://github.com/XRG2014</url>
-			<iconclass>fa fa-code</iconclass>
+			<iconclass>fa-brands fa-github</iconclass>
 		</link>
 		<link>
 			<name>My Youtube channel</name>
@@ -18,7 +18,7 @@
 		<link>
 			<name>Find me on Scratch</name>
 			<url>https://scratch.mit.edu/users/XRG2014</url>
-			<iconclass>fa fa-cat</iconclass>
+			<iconclass>fa fa-code</iconclass>
 		</link>
 	</footerlinks>
 </repo>
