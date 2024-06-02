@@ -1,14 +1,24 @@
 <repo>
 	<footerlinks>
 		<link>
-			<name>Follow me on Twitter</name>
-			<url>https://twitter.com/reposi3</url>
-			<iconclass>fa fa-twitter</iconclass>
+			<name>My website</name>
+			<url>https://xrg2014.github.io</url>
+			<iconclass>fa fa-laptop</iconclass>
 		</link>
 		<link>
-			<name>I want this depiction template</name>
+			<name>My Github profile</name>
+			<url>https://github.com/XRG2014</url>
+			<iconclass>fa fa-code</iconclass>
+		</link>
+		<link>
+			<name>My Youtube channel</name>
 			<url>https://github.com/supermamon/Reposi3/</url>
-			<iconclass>fa fa-thumbs-up</iconclass>
+			<iconclass>fa fa-youtube</iconclass>
+		</link>
+		<link>
+			<name>Find me on Scratch</name>
+			<url>https://scratch.mit.edu/users/XRG2014</url>
+			<iconclass>fa-solid fa-cat</iconclass>
 		</link>
 	</footerlinks>
 </repo>
