@@ -8,7 +8,7 @@
 		</firmware>
 	</compatibility>
 	<dependencies>
-		<package>com.anemonetheming.anemone | com.spark.snowboard</package>
+		<package>com.anemonetheming.anemone or com.spark.snowboard</package>
 	</dependencies>
 	<shortDescription>This theme brings back the classic Zoom icon. Firmware should be greater than 13.0</shortDescription>
 	<descriptionlist>
