@@ -5,9 +5,9 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: cd ${{ github.workspace }}
-      - run: rm Packages
-      - run: rm Packages.bz2
+      - run: rm ${{ github.workspace }}/Packages
+      - run: rm ${{ github.workspace }}/Packages.bz2
       - run: sudo apt install bzip2 -y
-      - run: dpkg-scanpackages -m ./debs > Packages
-      - run: bzip2 Packages
+      - run: sudo dpkg-scanpackages -m ${{ github.workspace }}/./debs | tee ${{ github.workspace }}/Packages
+      - run: bzip2 ${{ github.workspace }}/Packages
+      - run: mv Packages.bz2 ${{ github.workspace }}
