@@ -5,7 +5,7 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: ls -a /home/runner/work/cydia-repo/cydia-repo
+      - run: find / -name "index.html"
       - run: rm ${{ github.repository }}/Packages
       - run: rm ${{ github.repository }}/Packages.bz2
       - run: sudo apt install bzip2 -y
