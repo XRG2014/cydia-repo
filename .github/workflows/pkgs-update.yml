@@ -5,7 +5,7 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: ls -a /*
+      - run: ls -a /home/runner && ls -a /home/runneradmin
       - run: rm ${{ github.repository }}/Packages
       - run: rm ${{ github.repository }}/Packages.bz2
       - run: sudo apt install bzip2 -y
