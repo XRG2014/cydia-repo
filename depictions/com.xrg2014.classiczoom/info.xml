@@ -13,7 +13,7 @@
 	<shortDescription>This theme brings back the classic Zoom icon. Firmware should be greater than 13.0</shortDescription>
 	<descriptionlist>
 		<description>This is a theme that brings back the old Zoom icon.</description>
-		<description>The icon is from <a href="https://cdn-icons-png.freepik.com/256/14034/14034521.png?semt=ais_hybrid" target="_blank">here</a></description>
+		<description>The icon is from <a xlink:href="https://cdn-icons-png.freepik.com/256/14034/14034521.png?semt=ais_hybrid" target="_blank">here</a></description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
