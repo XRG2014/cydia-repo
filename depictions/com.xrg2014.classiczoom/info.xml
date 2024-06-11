@@ -2,17 +2,13 @@
 	<id>com.xrg2014.classiczoom</id>
 	<name>Classic Zoom</name>
 	<version>1.0.0-1</version>
-	<compatibility>
-		<firmware>
-			<miniOS>It is unknown what minimum and maximum iOS version this supports</miniOS>
-		</firmware>
-	</compatibility>
 	<dependencies>
 		<package>com.anemonetheming.anemone | com.spark.snowboard</package>
 	</dependencies>
-	<shortDescription>This theme brings back the classic Zoom icon</shortDescription>
+	<shortDescription>This theme brings back the classic Zoom icon. It is unknown what minimum and maximum iOS version this theme supports</shortDescription>
 	<descriptionlist>
-		<description>This is a theme that brings back the old Zoom icon.</description>
+		<description>This theme will bring back the old Zoom icon.</description>
+		<description>It is unknown what minimum and maximum iOS version this theme supports.</description>
 		<description>The icon is from: https://cdn-icons-png.freepik.com/256/14034/14034521.png?semt=ais_hybrid</description>
 	</descriptionlist>
 	<screenshots>
