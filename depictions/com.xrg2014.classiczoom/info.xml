@@ -4,13 +4,13 @@
 	<version>1.0.0-1</version>
 	<compatibility>
 		<firmware>
-			<miniOS>13.0</miniOS>
+			<miniOS>It is unknown what minimum and maximum iOS version this supports</miniOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
-		<package>com.anemonetheming.anemone or com.spark.snowboard</package>
+		<package>com.anemonetheming.anemone | com.spark.snowboard</package>
 	</dependencies>
-	<shortDescription>This theme brings back the classic Zoom icon. Firmware should be greater than 13.0</shortDescription>
+	<shortDescription>This theme brings back the classic Zoom icon</shortDescription>
 	<descriptionlist>
 		<description>This is a theme that brings back the old Zoom icon.</description>
 		<description>The icon is from: https://cdn-icons-png.freepik.com/256/14034/14034521.png?semt=ais_hybrid</description>
